@@ -10,7 +10,7 @@ RHOST = '127.0.0.1'
 RPORT = 4444
 ADDRESS = (RHOST, RPORT)
 
-WIDTH = 400g
+WIDTH = 400
 BUF_SIZE = 65535
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
